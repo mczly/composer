@@ -6,5 +6,5 @@
  * Time: 16:34
  */
 
-
-echo 1;
+include "vendor/autoload.php";
+core\Bootstrap::run();

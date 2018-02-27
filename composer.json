@@ -3,6 +3,7 @@
     "description": "composer",
     "type": "porject",
     "require": {
+        "gregwar/captcha": "dev-master"
     },
     "authors": [
         {
@@ -10,5 +11,15 @@
             "email": "402361232@qq.com"
         }
     ],
-    "minimum-stability": "dev"
+    "minimum-stability": "dev",
+    "autoload":{
+        "files":[
+            "core/functions.php"
+        ],
+        "psr-4":{
+            "core\\":"core",
+            "web\\":"web"
+        }
+
+    }
 }

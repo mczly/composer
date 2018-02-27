@@ -1,0 +1,15 @@
+{
+    "name": "mczly/composer",
+    "description": "composer",
+    "type": "porject",
+    "require": {
+        "laravel/laravel": "*"
+    },
+    "authors": [
+        {
+            "name": "mczly",
+            "email": "402361232@qq.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
